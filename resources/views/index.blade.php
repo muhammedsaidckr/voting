@@ -46,10 +46,12 @@
                 </div>
             </div>
             <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar"
-                         class="w-14 h-14 rounded-xl">
-                </a>
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar"
+                             class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
                 <div class="mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
@@ -76,7 +78,7 @@
                              w-28 h-7 py-2 px-4">Open
                             </div>
                             <button
-                                class="bg-gray-100 hover:bg-gray-200 rounded-full h-7 transition duration-150 ease-in py-2
+                                class="bg-gray-100 hover:bg-gray-200 rounded-full border h-7 transition duration-150 ease-in py-2
                             px-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="6" width="24" fill="none"
                                      viewBox="0 0 24 24"
