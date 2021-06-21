@@ -27508,6 +27508,10 @@ select {
   -webkit-line-clamp: unset;
 }
 
+[x-cloak] {
+  display: none;
+}
+
 /* vertical line to the left of the comments */
 
 .comments-container::before {
@@ -160612,4 +160616,5 @@ select {
     -webkit-line-clamp: unset;
   }
 }
+
 

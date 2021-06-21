@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+[x-cloak] {
+    display: none;
+}
+
 /* vertical line to the left of the comments */
 .comments-container::before {
     position: absolute;
@@ -58,3 +62,4 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
+
